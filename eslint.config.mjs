@@ -56,5 +56,6 @@ export default withNuxt(antfu({
 
     // or configure rules individually
     "better-tailwindcss/multiline": ["warn", { printWidth: 100 }],
+    "better-tailwindcss/no-unregistered-classes": "off",
   },
 }));
